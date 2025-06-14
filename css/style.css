@@ -19,8 +19,8 @@ body {
 
 /* Header */
 .header {
-    background-color: #000000; /* preto fundo */
-    color: white;
+    background-color: white; /* Fundo branco */
+    color: black; /* Texto padrão preto */
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -29,34 +29,24 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
+    color: black; /* "Shopping" em preto */
 }
 
 .logo span {
-    color: #00459A;
-}
-
-.nav {
-    display: flex;
-    gap: 2rem;
+    color: #00459A; /* "Das Letras" em azul */
 }
 
 .nav a {
-    color: white;
+    color: black; /* links em preto */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav a:hover {
-    color: #ccc;
+    color: #00459A; /* muda no hover para azul */
 }
 
 /* Hero Section */
